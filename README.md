@@ -8,3 +8,9 @@
 - echo. > template.py
 
 ## Create the setup.py file
+
+## Install the project dependencies
+- pip install -r requirements.txt
+
+## Looger created
+

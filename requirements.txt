@@ -1,6 +1,6 @@
 pandas
 numpy
-matplotlib.pyplot
+matplotlib
 seaborn
 scikit-learn
 scipy
@@ -18,5 +18,6 @@ pymysql
 python-multipart
 cryptography
 pymysql[crypto]
+from_root
 
 -e .
