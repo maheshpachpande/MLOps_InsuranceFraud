@@ -14,7 +14,7 @@ catboost
 pymysql
 dvc
 PyYAML
-pymysql
+certifi
 python-multipart
 cryptography
 pymysql[crypto]
