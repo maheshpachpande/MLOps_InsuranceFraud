@@ -12,5 +12,7 @@
 ## Install the project dependencies
 - pip install -r requirements.txt
 
-## Looger created
+## Logger created
+
+## Exception created
 
