@@ -1,0 +1,22 @@
+pandas
+numpy
+matplotlib.pyplot
+seaborn
+scikit-learn
+scipy
+statsmodels
+dataclasses
+xgboost
+ipykernel
+plotly
+imblearn
+catboost
+pymysql
+dvc
+PyYAML
+pymysql
+python-multipart
+cryptography
+pymysql[crypto]
+
+-e .

@@ -7,3 +7,4 @@
 ## Create template.py file for folder structure for Production-Grade project
 - echo. > template.py
 
+## Create the setup.py file
