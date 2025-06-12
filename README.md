@@ -20,5 +20,6 @@
 
 ## (Constants-->config_entity.py-->artifact_entity.py-->configuration.py-->data_access.py-->data_ingestion.py-->training_pipeline.py)
 
-## 
+## DVC added for data versioning
+
 

@@ -3,14 +3,14 @@ from insurance_fraud_detection.constants import *
 from dataclasses import dataclass
 from datetime import datetime
 
-TIMESTAMP: str = datetime.now().strftime("%m_%d_%Y_%H_%M_%S")
+# TIMESTAMP: str = datetime.now().strftime("%m_%d_%Y_%H_%M_%S")
 
 
 @dataclass
 class TrainingPipelineConfig:
     pipeline_name: str = PIPELINE_NAME
-    artifact_dir: str = os.path.join(ARTIFACT_DIR, TIMESTAMP)
-    timestamp: str = TIMESTAMP
+    artifact_dir: str = os.path.join(ARTIFACT_DIR) #, TIMESTAMP)
+    # timestamp: str = TIMESTAMP
 
 # Instantiate the pipeline configuration object
 training_pipeline_config: TrainingPipelineConfig = TrainingPipelineConfig()

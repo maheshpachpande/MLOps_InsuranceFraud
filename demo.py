@@ -1,4 +1,4 @@
-from insurance_fraud_detection.pipline.training_pipeline import TrainPipeline
+from insurance_fraud_detection.pipeline.training_pipeline import TrainPipeline
 
 
 obj = TrainPipeline()
