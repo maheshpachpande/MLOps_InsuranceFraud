@@ -1,0 +1,15 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python insurance_fraud_detection/pipeline/prediction_pipeline.py
+    deps:
+    - path: insurance_fraud_detection/pipeline/prediction_pipeline.py
+      hash: md5
+      md5: 818cd35bf66691777a6a0b4094868377
+      size: 712
+    outs:
+    - path: artifacts/data_ingestion
+      hash: md5
+      md5: ecc2c518118427636c4fb58a539d635f.dir
+      size: 528071
+      nfiles: 3
