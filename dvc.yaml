@@ -1,10 +1,8 @@
 stages:
   data_ingestion:
-    cmd: python -m insurance_fraud_detection.pipeline.training_pipeline
-
+    cmd: python insurance_fraud_detection/pipeline/prediction_pipeline.py
     deps:
-      - insurance_fraud_detection/components/data_ingestion.py
-      - insurance_fraud_detection/pipeline/training_pipeline.py
+      - insurance_fraud_detection/pipeline/prediction_pipeline.py
+      
     outs:
-      # - artifacts
-      - artifacts/data_ingestion/feature_store/
+      - artifacts/data_ingestion
