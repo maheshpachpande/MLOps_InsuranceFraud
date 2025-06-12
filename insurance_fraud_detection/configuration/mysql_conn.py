@@ -24,11 +24,12 @@ class MySQLClient:
     Description :  This class establishes a connection to the MySQL database and can be used to export data 
                    from the MySQL feature store. # SELECT * FROM mlops.insurancefraud_dataset;
     """
+    logging.info("Connecting to MySQL database...")
     client = None
 
     def __init__(self) -> None:
         try:
-            logging.info("Connecting to MySQL database...")
+            
             # Check if the client is already initialized
             if MySQLClient.client is None:
                 database_name = os.getenv(DATABASE_NAME)

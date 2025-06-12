@@ -16,5 +16,9 @@
 
 ## Exception created
 
-## Workflows: (Constants-->config_entity.py-->artifact_entity.py-->configuration.py)
+## Workflows: Constants, Entity, Components, pipelines...
+
+## (Constants-->config_entity.py-->artifact_entity.py-->configuration.py-->data_access.py-->data_ingestion.py-->training_pipeline.py)
+
+## 
 
