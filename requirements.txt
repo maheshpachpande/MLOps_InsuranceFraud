@@ -1,5 +1,7 @@
 pandas
-numpy
+evidently==0.4.15
+numpy==1.26.4
+
 matplotlib
 seaborn
 scikit-learn
@@ -15,6 +17,8 @@ pymysql
 dvc
 PyYAML
 certifi
+pydantic==1.10.13
+dill
 python-multipart
 cryptography
 pymysql[crypto]

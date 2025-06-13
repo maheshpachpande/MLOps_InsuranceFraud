@@ -43,7 +43,7 @@ list_of_files = [
     # Pipeline orchestration folder
     f"{project_name}/pipline/__init__.py",
     f"{project_name}/pipline/training_pipeline.py",       # Script to run full training pipeline
-    f"{project_name}/pipline/prediction_pipeline.py",     # Script for running inference/predictions
+    f"{project_name}/pipline/stage_01_data_ingestion.py",     # Script for running inference/predictions
 
     # Utility functions
     f"{project_name}/utils/__init__.py",

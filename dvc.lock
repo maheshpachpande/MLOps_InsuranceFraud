@@ -1,9 +1,9 @@
 schema: '2.0'
 stages:
   data_ingestion:
-    cmd: python insurance_fraud_detection/pipeline/prediction_pipeline.py
+    cmd: python insurance_fraud_detection/pipeline/stage_01_data_ingestion.py
     deps:
-    - path: insurance_fraud_detection/pipeline/prediction_pipeline.py
+    - path: insurance_fraud_detection/pipeline/stage_01_data_ingestion.py
       hash: md5
       md5: 818cd35bf66691777a6a0b4094868377
       size: 712
